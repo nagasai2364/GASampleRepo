@@ -1,0 +1,12 @@
+name: NagaAction
+
+on:
+  push:
+
+jobs:
+  build-job:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Say Hello
+        run: echo Hello World
