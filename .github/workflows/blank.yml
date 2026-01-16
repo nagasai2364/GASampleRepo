@@ -1,6 +1,7 @@
 name: NagaAction
 
 on:
+  workflow_dispatch:
   push:
 
 jobs:
